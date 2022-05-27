@@ -3,12 +3,23 @@ import {BrowserModule} from '@angular/platform-browser'
 
 import {AppRoutingModule} from './app-routing.module'
 import {AppComponent} from './app.component'
-import {HeaderComponent} from './shared/header/header.component';
-import { NavComponent } from './shared/nav/nav.component'
+import {HeaderComponent} from './shared/header/header.component'
+import {NavComponent} from './shared/nav/nav.component'
+import {ListCompsComponent} from './main/list-comps/list-comps.component'
+import {ListCompsWithPingComponent} from './main/list-comps-with-ping/list-comps-with-ping.component'
+import {HttpClientModule} from '@angular/common/http'
+import {TableModule} from 'primeng/table'
+import {ProgressSpinnerModule} from 'primeng/progressspinner'
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, NavComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    NavComponent,
+    ListCompsComponent,
+    ListCompsWithPingComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, TableModule, ProgressSpinnerModule],
   providers: [],
   bootstrap: [AppComponent],
 })
