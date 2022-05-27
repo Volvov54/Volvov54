@@ -1,17 +1,32 @@
 <div *ngIf="loaded">
   <div class="card">
-    <p-table [columns]="cols" [value]="data" responsiveLayout="scroll">
-      <ng-template pTemplate="header" let-columns>
+    <p-table [value]="data" responsiveLayout="scroll">
+      <ng-template pTemplate="header">
         <tr>
-          <th *ngFor="let col of columns">
-            {{col.header}}
-          </th>
+          <th>Name</th>
+          <th>Login</th>
+          <th>IP</th>
+          <th>Ping</th>
         </tr>
       </ng-template>
-      <ng-template pTemplate="body" let-rowData let-columns="columns">
+      <ng-template pTemplate="body" let-item>
         <tr>
-          <td *ngFor="let col of columns">
-            {{rowData[col.field]}}
+          <td>{{item.name}}</td>
+          <td>{{item.login}}</td>
+          <td>{{item.ip}}</td>
+          <td>
+            <p-tag
+              *ngIf="item.ping"
+              icon="pi pi-check"
+              severity="success"
+              [rounded]="true"
+            ></p-tag>
+            <p-tag
+              *ngIf="!item.ping"
+              icon="pi pi-times"
+              severity="danger"
+              [rounded]="true"
+            ></p-tag>
           </td>
         </tr>
       </ng-template>

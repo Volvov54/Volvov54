@@ -12,7 +12,6 @@ export class ListCompsWithPingComponent implements OnInit, OnDestroy {
   data: CompWP[] = []
   private endSubs$: Subject<any> = new Subject()
   loaded: boolean = false
-  cols: any[] = []
 
   constructor(private service: CompsWPService) {}
 
@@ -25,12 +24,6 @@ export class ListCompsWithPingComponent implements OnInit, OnDestroy {
         this.loaded = true
         console.log(JSON.stringify(comps))
       })
-    this.cols = [
-      {field: 'name', header: 'Name'},
-      {field: 'login', header: 'Login'},
-      {field: 'ip', header: 'IP'},
-      {field: 'ping', header: 'ping'},
-    ]
   }
 
   ngOnDestroy(): void {

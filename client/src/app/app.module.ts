@@ -10,6 +10,7 @@ import {ListCompsWithPingComponent} from './main/list-comps-with-ping/list-comps
 import {HttpClientModule} from '@angular/common/http'
 import {TableModule} from 'primeng/table'
 import {ProgressSpinnerModule} from 'primeng/progressspinner'
+import {TagModule} from 'primeng/tag'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,14 @@ import {ProgressSpinnerModule} from 'primeng/progressspinner'
     ListCompsComponent,
     ListCompsWithPingComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, TableModule, ProgressSpinnerModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    TableModule,
+    ProgressSpinnerModule,
+    TagModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
