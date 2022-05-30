@@ -12,6 +12,7 @@ class Comp {}
 export class ListCompsComponent implements OnInit, OnDestroy {
   data: Comp[] = []
   private endSubs$: Subject<any> = new Subject()
+  loaded: boolean = false
 
   constructor(private service: CompsService) {}
 
@@ -21,6 +22,7 @@ export class ListCompsComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.endSubs$))
       .subscribe(comps => {
         this.data = comps.data
+        this.loaded = true
         console.log(JSON.stringify(comps))
       })
   }
