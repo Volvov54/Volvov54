@@ -3,10 +3,18 @@
     <p-table [value]="data" responsiveLayout="scroll">
       <ng-template pTemplate="header">
         <tr>
-          <th>Name</th>
-          <th>Login</th>
-          <th>IP</th>
-          <th>Ping</th>
+          <th pSortableColumn="name">Name
+            <p-sortIcon field="name"></p-sortIcon>
+          </th>
+          <th pSortableColumn="login">Login
+            <p-sortIcon field="login"></p-sortIcon>
+          </th>
+          <th pSortableColumn="ip">IP
+            <p-sortIcon field="ip"></p-sortIcon>
+          </th>
+          <th pSortableColumn="ping">Ping
+            <p-sortIcon field="ping"></p-sortIcon>
+          </th>
         </tr>
       </ng-template>
       <ng-template pTemplate="body" let-item>
