@@ -111,6 +111,11 @@
       "ip": "10.251.87.16"
     },
     {
+      "name": "KALANTAI",
+      "login": "Serdiychuk",
+      "ip": "10.251.87.32"
+    },
+    {
       "name": "KARACHUNOV",
       "login": "skarachunov",
       "ip": "10.251.87.9"
@@ -122,7 +127,7 @@
     },
     {
       "name": "LEBEDEVA1",
-      "login": "nugnenko",
+      "login": "savchuk",
       "ip": "10.251.87.28"
     },
     {
