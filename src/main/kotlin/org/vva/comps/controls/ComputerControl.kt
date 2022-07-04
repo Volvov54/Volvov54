@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import org.vva.comps.config.Config.computers
 import org.vva.comps.models.CompsWithPing
+import org.vva.comps.models.CompsWithPorts
 import org.vva.comps.models.Computers
 import org.vva.comps.service.ComputerService
 
@@ -23,7 +24,12 @@ class ComputerControl {
     }
 
     @GetMapping("/ping")
-    fun getCompsWithPing(): CompsWithPing {
+    suspend fun getCompsWithPing(): CompsWithPing {
         return computerService.getCompsWithPing()
+    }
+
+    @GetMapping("/ports")
+    suspend fun getCompsWithPorts(): CompsWithPorts {
+        return computerService.getCompsWithPorts()
     }
 }

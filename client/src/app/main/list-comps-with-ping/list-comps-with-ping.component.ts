@@ -22,7 +22,7 @@ export class ListCompsWithPingComponent implements OnInit, OnDestroy {
       .subscribe(comps => {
         this.data = comps.data
         this.loaded = true
-        console.log(JSON.stringify(comps))
+        // console.log(JSON.stringify(comps))
       })
   }
 
