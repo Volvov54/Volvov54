@@ -12,7 +12,7 @@ import org.vva.comps.models.Computers
 import org.vva.comps.service.ComputerService
 
 @RestController
-@RequestMapping("comp")
+@RequestMapping("api/comps")
 @CrossOrigin
 class ComputerControl {
     @Autowired

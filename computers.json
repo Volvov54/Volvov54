@@ -11,14 +11,24 @@
       "ip": "10.251.87.60"
     },
     {
+      "name": "ALTAIR4",
+      "login": "sadminos",
+      "ip": "10.251.87.125"
+    },
+    {
       "name": "ARHIV",
       "login": "semenova",
       "ip": "10.251.87.2"
     },
     {
-      "name": "BILA",
+      "name": "BILA2",
       "login": "bila",
-      "ip": "10.251.87.24"
+      "ip": "10.251.87.11"
+    },
+    {
+      "name": "BOGKO",
+      "login": "bogko",
+      "ip": "10.251.87.72"
     },
     {
       "name": "CHERNYAK",
@@ -33,7 +43,7 @@
     {
       "name": "DESKTOP-3AJ8A0F",
       "login": "rysenko",
-      "ip": "10.251.87.35"
+      "ip": "10.251.87.71"
     },
     {
       "name": "DESKTOP-JEHETDT",
@@ -62,7 +72,7 @@
     },
     {
       "name": "ERMOLENKO",
-      "login": "ermolenko",
+      "login": "ivanchenko",
       "ip": "10.251.87.17"
     },
     {
@@ -98,7 +108,7 @@
     {
       "name": "FOND7",
       "login": "zigel",
-      "ip": "10.251.87.34"
+      "ip": "10.251.87.69"
     },
     {
       "name": "FOND78",
@@ -111,16 +121,21 @@
       "ip": "10.251.87.16"
     },
     {
+      "name": "HP600-ZP7",
+      "login": "fond9",
+      "ip": "10.251.87.18"
+    },
+    {
       "name": "KALANTAI",
       "login": "Serdiychuk",
       "ip": "10.251.87.32"
-    },
+   },
     {
       "name": "KARACHUNOV",
       "login": "skarachunov",
       "ip": "10.251.87.9"
     },
-    {
+   {
       "name": "KUCHERUK",
       "login": "kucheruk",
       "ip": "10.251.87.14"
@@ -129,6 +144,11 @@
       "name": "LEBEDEVA1",
       "login": "savchuk",
       "ip": "10.251.87.28"
+    },
+    {
+      "name": "LITASH",
+      "login": "litash",
+      "ip": "10.251.87.19"
     },
     {
       "name": "ODESSA",
@@ -161,6 +181,11 @@
       "ip": "10.251.87.27"
     },
     {
+      "name": "ROMASHCENKO",
+      "login": "romaschenko",
+      "ip": "10.251.87.63"
+    },
+    {
       "name": "SHEVELEVA",
       "login": "pogodin",
       "ip": "10.251.87.36"
@@ -169,6 +194,11 @@
       "name": "SOKOL",
       "login": "sokol",
       "ip": "10.251.87.40"
+    },
+    {
+      "name": "STAVNYCHA",
+      "login": "stavnycha",
+      "ip": "10.251.87.64"
     },
     {
       "name": "STOVPOVA",
@@ -194,11 +224,6 @@
       "name": "VOROBYOVA",
       "login": "romashcenko",
       "ip": "10.251.87.6"
-    },
-    {
-      "name": "VUGYLARNA",
-      "login": "bogko",
-      "ip": "10.251.87.19"
     },
     {
       "name": "WASD",

@@ -24,6 +24,7 @@ class ComputerService {
                         comp.name,
                         comp.login,
                         comp.ip,
+                        comp.commentary,
                         getPing(comp.ip)
                     )
                     compsWithPing.data.add(compWithPing)
@@ -43,6 +44,7 @@ class ComputerService {
                         comp.name,
                         comp.login,
                         comp.ip,
+                        comp.commentary,
                         getPing(comp.ip),
                         getPorts(comp.ip, 139),
                         getPorts(comp.ip, 2000),

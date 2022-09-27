@@ -11,7 +11,7 @@ import {HttpClientModule} from '@angular/common/http'
 import {TableModule} from 'primeng/table'
 import {ProgressSpinnerModule} from 'primeng/progressspinner'
 import {TagModule} from 'primeng/tag';
-import { ListCompsWithPortsComponent } from './main/list-comps-with-ports/list-comps-with-ports.component'
+import {ListCompsWithPortsComponent} from './main/list-comps-with-ports/list-comps-with-ports.component'
 
 @NgModule({
   declarations: [
@@ -33,4 +33,5 @@ import { ListCompsWithPortsComponent } from './main/list-comps-with-ports/list-c
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
