@@ -3,11 +3,9 @@ package org.vva.comps.service
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import org.springframework.stereotype.Service
+import org.vva.comps.config.Config
 import org.vva.comps.config.Config.computers
-import org.vva.comps.models.CompsWithPing
-import org.vva.comps.models.CompsWithPorts
-import org.vva.comps.models.ComputerWithPing
-import org.vva.comps.models.ComputerWithPorts
+import org.vva.comps.models.*
 import java.net.InetAddress
 import java.net.InetSocketAddress
 import java.net.Socket
@@ -74,5 +72,15 @@ class ComputerService {
             return true
         else
             return false
+    }
+
+    fun getComp(name: String): Computer {
+        return computers.data.first {it.name == name}
+    }
+
+    fun addComp(newComp: Computer): Computer {
+        computers.data.add(newComp)
+        Config.saveComps()
+        return newComp
     }
 }

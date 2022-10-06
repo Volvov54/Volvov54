@@ -1,13 +1,11 @@
 package org.vva.comps.controls
 
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.web.bind.annotation.CrossOrigin
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 import org.vva.comps.config.Config.computers
 import org.vva.comps.models.CompsWithPing
 import org.vva.comps.models.CompsWithPorts
+import org.vva.comps.models.Computer
 import org.vva.comps.models.Computers
 import org.vva.comps.service.ComputerService
 
@@ -21,6 +19,16 @@ class ComputerControl {
     @GetMapping
     fun getComps(): Computers {
         return computers
+    }
+
+    @GetMapping("/comp/{name}")
+    fun getComp(@PathVariable name: String): Computer {
+        return computerService.getComp(name)
+    }
+
+    @PostMapping("/comp")
+    fun createComp(@RequestBody newComp: Computer): Computer {
+        return computerService.addComp(newComp)
     }
 
     @GetMapping("/ping")

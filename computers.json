@@ -1,234 +1,248 @@
 {
-  "data": [
-    {
-      "name": "0102-4289",
-      "login": "sadova",
-      "ip": "10.251.87.51"
-    },
-    {
-      "name": "0107-4271",
-      "login": "ivanova",
-      "ip": "10.251.87.60"
-    },
-    {
-      "name": "ALTAIR4",
-      "login": "sadminos",
-      "ip": "10.251.87.125"
-    },
-    {
-      "name": "ARHIV",
-      "login": "semenova",
-      "ip": "10.251.87.2"
-    },
-    {
-      "name": "BILA2",
-      "login": "bila",
-      "ip": "10.251.87.11"
-    },
-    {
-      "name": "BOGKO",
-      "login": "bogko",
-      "ip": "10.251.87.72"
-    },
-    {
-      "name": "CHERNYAK",
-      "login": "chernyak",
-      "ip": "10.251.87.23"
-    },
-    {
-      "name": "DEFCON1",
-      "login": "avramenko",
-      "ip": "10.251.87.12"
-    },
-    {
-      "name": "DESKTOP-3AJ8A0F",
-      "login": "rysenko",
-      "ip": "10.251.87.71"
-    },
-    {
-      "name": "DESKTOP-JEHETDT",
-      "login": "rudenko",
-      "ip": "10.251.87.29"
-    },
-    {
-      "name": "DESKTOP-NBVP18V",
-      "login": "stavnycha",
-      "ip": "10.251.87.59"
-    },
-    {
-      "name": "DESKTOP-SED4P6A",
-      "login": "marchenko",
-      "ip": "10.251.87.37"
-    },
-    {
-      "name": "DMITRISHIN",
-      "login": "gytnuk",
-      "ip": "10.251.87.8"
-    },
-    {
-      "name": "DSTATION",
-      "login": "",
-      "ip": "10.251.87.170"
-    },
-    {
-      "name": "ERMOLENKO",
-      "login": "ivanchenko",
-      "ip": "10.251.87.17"
-    },
-    {
-      "name": "FEDOTOVA",
-      "login": "fedotova",
-      "ip": "10.251.87.25"
-    },
-    {
-      "name": "FILLAPP",
-      "login": "sadminos",
-      "ip": "10.251.87.108"
-    },
-    {
-      "name": "FOND105",
-      "login": "kobylinska",
-      "ip": "10.251.87.13"
-    },
-    {
-      "name": "FOND2",
-      "login": "gritsenko",
-      "ip": "10.251.87.10"
-    },
-    {
-      "name": "FOND20",
-      "login": "kravchuk",
-      "ip": "10.251.87.20"
-    },
-    {
-      "name": "FOND5",
-      "login": "zosim",
-      "ip": "10.251.87.33"
-    },
-    {
-      "name": "FOND7",
-      "login": "zigel",
-      "ip": "10.251.87.69"
-    },
-    {
-      "name": "FOND78",
-      "login": "tsvetkovich",
-      "ip": "10.251.87.45"
-    },
-    {
-      "name": "GRUGORENKO",
-      "login": "grugorenko",
-      "ip": "10.251.87.16"
-    },
-    {
-      "name": "HP600-ZP7",
-      "login": "fond9",
-      "ip": "10.251.87.18"
-    },
-    {
-      "name": "KALANTAI",
-      "login": "Serdiychuk",
-      "ip": "10.251.87.32"
-   },
-    {
-      "name": "KARACHUNOV",
-      "login": "skarachunov",
-      "ip": "10.251.87.9"
-    },
-   {
-      "name": "KUCHERUK",
-      "login": "kucheruk",
-      "ip": "10.251.87.14"
-    },
-    {
-      "name": "LEBEDEVA1",
-      "login": "savchuk",
-      "ip": "10.251.87.28"
-    },
-    {
-      "name": "LITASH",
-      "login": "litash",
-      "ip": "10.251.87.19"
-    },
-    {
-      "name": "ODESSA",
-      "login": "sadminos",
-      "ip": "10.251.87.4"
-    },
-    {
-      "name": "PARMA",
-      "login": "parma",
-      "ip": "10.251.87.21"
-    },
-    {
-      "name": "PISKUN",
-      "login": "piskun",
-      "ip": "10.251.87.15"
-    },
-    {
-      "name": "POLSKA",
-      "login": "parma",
-      "ip": "10.251.87.22"
-    },
-    {
-      "name": "POPENKO",
-      "login": "popenko",
-      "ip": "10.251.87.31"
-    },
-    {
-      "name": "RISKOVA-PC",
-      "login": "grishkova",
-      "ip": "10.251.87.27"
-    },
-    {
-      "name": "ROMASHCENKO",
-      "login": "romaschenko",
-      "ip": "10.251.87.63"
-    },
-    {
-      "name": "SHEVELEVA",
-      "login": "pogodin",
-      "ip": "10.251.87.36"
-    },
-    {
-      "name": "SOKOL",
-      "login": "sokol",
-      "ip": "10.251.87.40"
-    },
-    {
-      "name": "STAVNYCHA",
-      "login": "stavnycha",
-      "ip": "10.251.87.64"
-    },
-    {
-      "name": "STOVPOVA",
-      "login": "pruhodko",
-      "ip": "10.251.87.48"
-    },
-    {
-      "name": "TOBOAPP",
-      "login": "sadminos",
-      "ip": "10.251.87.109"
-    },
-    {
-      "name": "VAVRAMENKO",
-      "login": "vavramenko",
-      "ip": "10.251.87.7"
-    },
-    {
-      "name": "VOLOSHIN-PC",
-      "login": "voloshin",
-      "ip": "10.251.87.3"
-    },
-    {
-      "name": "VOROBYOVA",
-      "login": "romashcenko",
-      "ip": "10.251.87.6"
-    },
-    {
-      "name": "WASD",
-      "login": "novogulova",
-      "ip": "10.251.87.30"
-    }
-  ]
+  "data" : [ {
+    "name" : "0102-4289",
+    "login" : "sadova",
+    "ip" : "10.251.87.51",
+    "commentary" : null
+  }, {
+    "name" : "0107-4271",
+    "login" : "ivanova",
+    "ip" : "10.251.87.60",
+    "commentary" : null
+  }, {
+    "name" : "ALTAIR4",
+    "login" : "sadminos",
+    "ip" : "10.251.87.125",
+    "commentary" : null
+  }, {
+    "name" : "ARHIV",
+    "login" : "semenova",
+    "ip" : "10.251.87.2",
+    "commentary" : null
+  }, {
+    "name" : "BILA2",
+    "login" : "bila",
+    "ip" : "10.251.87.11",
+    "commentary" : null
+  }, {
+    "name" : "BOGKO",
+    "login" : "bogko",
+    "ip" : "10.251.87.72",
+    "commentary" : null
+  }, {
+    "name" : "CHERNYAK",
+    "login" : "chernyak",
+    "ip" : "10.251.87.23",
+    "commentary" : null
+  }, {
+    "name" : "Computer",
+    "login" : "",
+    "ip" : "10.251.87.111",
+    "commentary" : ""
+  }, {
+    "name" : "Computer2",
+    "login" : "vesna",
+    "ip" : "10.251.87.112",
+    "commentary" : ""
+  }, {
+    "name" : "Computer3",
+    "login" : "sara",
+    "ip" : "10.251.87.113",
+    "commentary" : ""
+  }, {
+    "name" : "DEFCON1",
+    "login" : "avramenko",
+    "ip" : "10.251.87.12",
+    "commentary" : null
+  }, {
+    "name" : "DESKTOP-3AJ8A0F",
+    "login" : "rysenko",
+    "ip" : "10.251.87.71",
+    "commentary" : null
+  }, {
+    "name" : "DESKTOP-JEHETDT",
+    "login" : "rudenko",
+    "ip" : "10.251.87.29",
+    "commentary" : null
+  }, {
+    "name" : "DESKTOP-NBVP18V",
+    "login" : "stavnycha",
+    "ip" : "10.251.87.59",
+    "commentary" : null
+  }, {
+    "name" : "DESKTOP-SED4P6A",
+    "login" : "marchenko",
+    "ip" : "10.251.87.37",
+    "commentary" : null
+  }, {
+    "name" : "DMITRISHIN",
+    "login" : "gytnuk",
+    "ip" : "10.251.87.8",
+    "commentary" : null
+  }, {
+    "name" : "DSTATION",
+    "login" : "",
+    "ip" : "10.251.87.170",
+    "commentary" : null
+  }, {
+    "name" : "ERMOLENKO",
+    "login" : "ivanchenko",
+    "ip" : "10.251.87.17",
+    "commentary" : null
+  }, {
+    "name" : "FEDOTOVA",
+    "login" : "fedotova",
+    "ip" : "10.251.87.25",
+    "commentary" : null
+  }, {
+    "name" : "FILLAPP",
+    "login" : "sadminos",
+    "ip" : "10.251.87.108",
+    "commentary" : null
+  }, {
+    "name" : "FOND105",
+    "login" : "kobylinska",
+    "ip" : "10.251.87.13",
+    "commentary" : null
+  }, {
+    "name" : "FOND2",
+    "login" : "gritsenko",
+    "ip" : "10.251.87.10",
+    "commentary" : null
+  }, {
+    "name" : "FOND20",
+    "login" : "kravchuk",
+    "ip" : "10.251.87.20",
+    "commentary" : null
+  }, {
+    "name" : "FOND5",
+    "login" : "zosim",
+    "ip" : "10.251.87.33",
+    "commentary" : null
+  }, {
+    "name" : "FOND7",
+    "login" : "zigel",
+    "ip" : "10.251.87.69",
+    "commentary" : null
+  }, {
+    "name" : "FOND78",
+    "login" : "tsvetkovich",
+    "ip" : "10.251.87.45",
+    "commentary" : null
+  }, {
+    "name" : "GRUGORENKO",
+    "login" : "grugorenko",
+    "ip" : "10.251.87.16",
+    "commentary" : null
+  }, {
+    "name" : "HP600-ZP7",
+    "login" : "fond9",
+    "ip" : "10.251.87.18",
+    "commentary" : null
+  }, {
+    "name" : "KALANTAI",
+    "login" : "Serdiychuk",
+    "ip" : "10.251.87.32",
+    "commentary" : null
+  }, {
+    "name" : "KARACHUNOV",
+    "login" : "skarachunov",
+    "ip" : "10.251.87.9",
+    "commentary" : null
+  }, {
+    "name" : "KUCHERUK",
+    "login" : "kucheruk",
+    "ip" : "10.251.87.14",
+    "commentary" : null
+  }, {
+    "name" : "LEBEDEVA1",
+    "login" : "savchuk",
+    "ip" : "10.251.87.28",
+    "commentary" : null
+  }, {
+    "name" : "LITASH",
+    "login" : "litash",
+    "ip" : "10.251.87.19",
+    "commentary" : null
+  }, {
+    "name" : "ODESSA",
+    "login" : "sadminos",
+    "ip" : "10.251.87.4",
+    "commentary" : null
+  }, {
+    "name" : "PARMA",
+    "login" : "parma",
+    "ip" : "10.251.87.21",
+    "commentary" : null
+  }, {
+    "name" : "PISKUN",
+    "login" : "piskun",
+    "ip" : "10.251.87.15",
+    "commentary" : null
+  }, {
+    "name" : "POLSKA",
+    "login" : "parma",
+    "ip" : "10.251.87.22",
+    "commentary" : null
+  }, {
+    "name" : "POPENKO",
+    "login" : "popenko",
+    "ip" : "10.251.87.31",
+    "commentary" : null
+  }, {
+    "name" : "RISKOVA-PC",
+    "login" : "grishkova",
+    "ip" : "10.251.87.27",
+    "commentary" : null
+  }, {
+    "name" : "ROMASHCENKO",
+    "login" : "romaschenko",
+    "ip" : "10.251.87.63",
+    "commentary" : null
+  }, {
+    "name" : "SHEVELEVA",
+    "login" : "pogodin",
+    "ip" : "10.251.87.36",
+    "commentary" : null
+  }, {
+    "name" : "SOKOL",
+    "login" : "sokol",
+    "ip" : "10.251.87.40",
+    "commentary" : null
+  }, {
+    "name" : "STAVNYCHA",
+    "login" : "stavnycha",
+    "ip" : "10.251.87.64",
+    "commentary" : null
+  }, {
+    "name" : "STOVPOVA",
+    "login" : "pruhodko",
+    "ip" : "10.251.87.48",
+    "commentary" : null
+  }, {
+    "name" : "TOBOAPP",
+    "login" : "sadminos",
+    "ip" : "10.251.87.109",
+    "commentary" : null
+  }, {
+    "name" : "VAVRAMENKO",
+    "login" : "vavramenko",
+    "ip" : "10.251.87.7",
+    "commentary" : null
+  }, {
+    "name" : "VOLOSHIN-PC",
+    "login" : "voloshin",
+    "ip" : "10.251.87.3",
+    "commentary" : null
+  }, {
+    "name" : "VOROBYOVA",
+    "login" : "romashcenko",
+    "ip" : "10.251.87.6",
+    "commentary" : null
+  }, {
+    "name" : "WASD",
+    "login" : "novogulova",
+    "ip" : "10.251.87.30",
+    "commentary" : null
+  } ]
 }

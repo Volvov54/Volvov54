@@ -7,7 +7,25 @@ import java.io.File
 object Config {
     private val mapper = jacksonObjectMapper()
 
-    val computers = mapper.readValue<Computers>(
-        File("computers.json"),
-        Computers::class.java)
+    var computers = readComputers()
+
+    private fun readComputers(): Computers {
+        val comps = mapper.readValue<Computers>(
+            File("computers.json"),
+            Computers::class.java
+        )
+        if (comps == null) return Computers(ArrayList())
+        else return comps
+    }
+
+    fun saveComps() {
+        val dataSorted = computers.data.sortedBy { it.name }
+        val compsSorted = Computers(ArrayList())
+        dataSorted.forEach { compsSorted.data.add(it) }
+        mapper.writerWithDefaultPrettyPrinter().writeValue(
+            File("computers.json"),
+            compsSorted
+        )
+        computers = readComputers()
+    }
 }
