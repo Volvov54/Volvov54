@@ -27,7 +27,7 @@ data class ComputerWithPorts(
     val p4899: Boolean
 )
 
-class Computers(var data: ArrayList<Computer>)
+class Computers(var data: MutableList<Computer>)
 
 class CompsWithPing(var data: ArrayList<ComputerWithPing> = ArrayList())
 

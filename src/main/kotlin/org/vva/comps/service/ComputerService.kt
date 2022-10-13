@@ -17,7 +17,6 @@ class ComputerService {
         coroutineScope {
             for (comp in computers.data) {
                 launch {
-                    println("comp name = ${comp.name}")
                     val compWithPing = ComputerWithPing(
                         comp.name,
                         comp.login,
@@ -37,7 +36,6 @@ class ComputerService {
         coroutineScope {
             for (comp in computers.data) {
                 launch {
-                    println("comp name = ${comp.name}")
                     val compWithPorts = ComputerWithPorts(
                         comp.name,
                         comp.login,
@@ -68,19 +66,24 @@ class ComputerService {
 
     private fun getPing(ipAddress: String): Boolean {
         val geek = InetAddress.getByName(ipAddress)
-        if (geek.isReachable(1000))
-            return true
-        else
-            return false
+        return geek.isReachable(1000)
     }
 
     fun getComp(name: String): Computer {
-        return computers.data.first {it.name == name}
+        return computers.data.first { it.name == name }
     }
 
     fun addComp(newComp: Computer): Computer {
         computers.data.add(newComp)
         Config.saveComps()
         return newComp
+    }
+
+    fun updateComp(name: String, updComp: Computer): Computer {
+        val comp = computers.data.first { it.name == name }
+        computers.data.remove(comp)
+        computers.data.add(updComp)
+        Config.saveComps()
+        return updComp
     }
 }

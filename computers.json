@@ -40,10 +40,10 @@
     "ip" : "10.251.87.111",
     "commentary" : ""
   }, {
-    "name" : "Computer2",
-    "login" : "vesna",
+    "name" : "Computer22",
+    "login" : "vesna33",
     "ip" : "10.251.87.112",
-    "commentary" : ""
+    "commentary" : "Test"
   }, {
     "name" : "Computer3",
     "login" : "sara",

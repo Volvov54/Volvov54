@@ -31,6 +31,11 @@ class ComputerControl {
         return computerService.addComp(newComp)
     }
 
+    @PutMapping("/comp/{name}")
+    fun updateComp(@PathVariable name: String, @RequestBody updComp: Computer): Computer {
+        return computerService.updateComp(name, updComp)
+    }
+
     @GetMapping("/ping")
     suspend fun getCompsWithPing(): CompsWithPing {
         return computerService.getCompsWithPing()
