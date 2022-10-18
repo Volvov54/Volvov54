@@ -35,25 +35,10 @@
     "ip" : "10.251.87.23",
     "commentary" : null
   }, {
-    "name" : "Computer",
-    "login" : "",
-    "ip" : "10.251.87.111",
-    "commentary" : ""
-  }, {
-    "name" : "Computer22",
-    "login" : "vesna33",
-    "ip" : "10.251.87.112",
-    "commentary" : "Test"
-  }, {
-    "name" : "Computer3",
-    "login" : "sara",
-    "ip" : "10.251.87.113",
-    "commentary" : ""
-  }, {
     "name" : "DEFCON1",
     "login" : "avramenko",
     "ip" : "10.251.87.12",
-    "commentary" : null
+    "commentary" : "Авраменко"
   }, {
     "name" : "DESKTOP-3AJ8A0F",
     "login" : "rysenko",
@@ -83,7 +68,7 @@
     "name" : "DSTATION",
     "login" : "",
     "ip" : "10.251.87.170",
-    "commentary" : null
+    "commentary" : "Файловый сервер"
   }, {
     "name" : "ERMOLENKO",
     "login" : "ivanchenko",
@@ -127,8 +112,8 @@
   }, {
     "name" : "FOND78",
     "login" : "tsvetkovich",
-    "ip" : "10.251.87.45",
-    "commentary" : null
+    "ip" : "10.251.87.24",
+    "commentary" : ""
   }, {
     "name" : "GRUGORENKO",
     "login" : "grugorenko",
@@ -148,7 +133,7 @@
     "name" : "KARACHUNOV",
     "login" : "skarachunov",
     "ip" : "10.251.87.9",
-    "commentary" : null
+    "commentary" : "Мартьянова"
   }, {
     "name" : "KUCHERUK",
     "login" : "kucheruk",
@@ -164,6 +149,11 @@
     "login" : "litash",
     "ip" : "10.251.87.19",
     "commentary" : null
+  }, {
+    "name" : "MDaemon",
+    "login" : "SAdminOS",
+    "ip" : "192.168.11.3",
+    "commentary" : "mail - mistobank.kiev.ua"
   }, {
     "name" : "ODESSA",
     "login" : "sadminos",
