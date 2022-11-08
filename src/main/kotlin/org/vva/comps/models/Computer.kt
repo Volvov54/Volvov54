@@ -24,7 +24,8 @@ data class ComputerWithPorts(
     val p139: Boolean,
     val p2000: Boolean,
     val p3389: Boolean,
-    val p4899: Boolean
+    val p4899: Boolean,
+    val active: ArrayList<Pair<String,String>>
 )
 
 class Computers(var data: MutableList<Computer>)

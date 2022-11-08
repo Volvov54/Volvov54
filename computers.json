@@ -234,5 +234,10 @@
     "login" : "novogulova",
     "ip" : "10.251.87.30",
     "commentary" : null
+  }, {
+    "name" : "WIN-F",
+    "login" : "",
+    "ip" : "10.251.87.66",
+    "commentary" : "Фидо"
   } ]
 }

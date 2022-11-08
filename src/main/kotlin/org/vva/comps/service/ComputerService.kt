@@ -1,11 +1,14 @@
 package org.vva.comps.service
 
+import com.lordcodes.turtle.ShellRunException
+import com.lordcodes.turtle.shellRun
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import org.springframework.stereotype.Service
 import org.vva.comps.config.Config
 import org.vva.comps.config.Config.computers
 import org.vva.comps.models.*
+import java.io.IOException
 import java.net.InetAddress
 import java.net.InetSocketAddress
 import java.net.Socket
@@ -36,6 +39,12 @@ class ComputerService {
         coroutineScope {
             for (comp in computers.data) {
                 launch {
+                    val p3389 = getPorts(comp.ip, 3389)
+                    val active = if (p3389) {
+                        getActiveCompList(getSessionList(comp.name))
+                    } else {
+                        ArrayList<Pair<String, String>>()
+                    }
                     val compWithPorts = ComputerWithPorts(
                         comp.name,
                         comp.login,
@@ -44,8 +53,9 @@ class ComputerService {
                         getPing(comp.ip),
                         getPorts(comp.ip, 139),
                         getPorts(comp.ip, 2000),
-                        getPorts(comp.ip, 3389),
+                        p3389,
                         getPorts(comp.ip, 4899),
+                        active
                     )
                     compsWithPorts.data.add(compWithPorts)
                 }
@@ -67,6 +77,30 @@ class ComputerService {
     private fun getPing(ipAddress: String): Boolean {
         val geek = InetAddress.getByName(ipAddress)
         return geek.isReachable(1000)
+    }
+
+    private fun getActiveCompList(sessionList: String): ArrayList<Pair<String, String>> {
+        val res = ArrayList<Pair<String, String>>()
+        val list = sessionList.lines()
+        for (i in 5..list.size-1) {
+            val sessionName = list[i].substring(1,18).trim()
+            val userName = list[i].substring(19,39).trim()
+            val state = list[i].substring(48, 54).trim()
+            if (state.equals("Active")) {
+                res.add(Pair(userName, sessionName))
+            }
+        }
+        return res
+    }
+
+    private fun getSessionList(compName: String): String {
+        try {
+            val output = shellRun("lines.bat", listOf(compName))
+            return output
+        } catch (e1: IOException) {
+        } catch (e2: ShellRunException) {
+        }
+        return ""
     }
 
     fun getComp(name: String): Computer {
