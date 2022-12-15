@@ -22,6 +22,7 @@ data class ComputerWithPorts(
     val commentary: String?,
     val ping: Boolean,
     val p139: Boolean,
+    val p445: Boolean,
     val p2000: Boolean,
     val p3389: Boolean,
     val p4899: Boolean,

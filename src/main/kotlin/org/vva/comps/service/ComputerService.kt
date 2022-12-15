@@ -52,6 +52,7 @@ class ComputerService {
                         comp.commentary,
                         getPing(comp.ip),
                         getPorts(comp.ip, 139),
+                        getPorts(comp.ip, 445),
                         getPorts(comp.ip, 2000),
                         p3389,
                         getPorts(comp.ip, 4899),
@@ -82,11 +83,15 @@ class ComputerService {
     private fun getActiveCompList(sessionList: String): ArrayList<Pair<String, String>> {
         val res = ArrayList<Pair<String, String>>()
         val list = sessionList.lines()
+        if (list.size < 4) {
+            return res
+        }
+        println(list[3])
         for (i in 5..list.size-1) {
             val sessionName = list[i].substring(1,18).trim()
             val userName = list[i].substring(19,39).trim()
-            val state = list[i].substring(48, 54).trim()
-            if (state.equals("Active")) {
+            val state = list[i].contains("Active")
+            if (state) {
                 res.add(Pair(userName, sessionName))
             }
         }

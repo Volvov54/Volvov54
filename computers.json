@@ -186,9 +186,9 @@
     "commentary" : null
   }, {
     "name" : "ROMASHCENKO",
-    "login" : "romaschenko",
+    "login" : "Romashchenko",
     "ip" : "10.251.87.63",
-    "commentary" : null
+    "commentary" : "Резервный"
   }, {
     "name" : "SHEVELEVA",
     "login" : "pogodin",
@@ -226,9 +226,9 @@
     "commentary" : null
   }, {
     "name" : "VOROBYOVA",
-    "login" : "romashcenko",
+    "login" : "Romashchenko",
     "ip" : "10.251.87.6",
-    "commentary" : null
+    "commentary" : "Основной комп Ромащенко"
   }, {
     "name" : "WASD",
     "login" : "novogulova",
