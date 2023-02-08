@@ -39,6 +39,7 @@ class ComputerService {
         coroutineScope {
             for (comp in computers.data) {
                 launch {
+                    println("${comp.name}")
                     val p3389 = getPorts(comp.ip, 3389)
                     val active = if (p3389) {
                         getActiveCompList(getSessionList(comp.name))
@@ -87,9 +88,9 @@ class ComputerService {
             return res
         }
         println(list[3])
-        for (i in 5..list.size-1) {
-            val sessionName = list[i].substring(1,18).trim()
-            val userName = list[i].substring(19,39).trim()
+        for (i in 5..list.size - 1) {
+            val sessionName = list[i].substring(1, 18).trim()
+            val userName = list[i].substring(19, 39).trim()
             val state = list[i].contains("Active")
             if (state) {
                 res.add(Pair(userName, sessionName))
