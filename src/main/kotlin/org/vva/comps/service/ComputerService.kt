@@ -84,6 +84,7 @@ class ComputerService {
     private fun getActiveCompList(sessionList: String): ArrayList<Pair<String, String>> {
         val res = ArrayList<Pair<String, String>>()
         val list = sessionList.lines()
+        println("$list")
         if (list.size < 4) {
             return res
         }
@@ -102,6 +103,7 @@ class ComputerService {
     private fun getSessionList(compName: String): String {
         try {
             val output = shellRun("lines.bat", listOf(compName))
+            println("$output")
             return output
         } catch (e1: IOException) {
         } catch (e2: ShellRunException) {

@@ -45,4 +45,8 @@ class ComputerControl {
     suspend fun getCompsWithPorts(): CompsWithPorts {
         return computerService.getCompsWithPorts()
     }
+
+    @GetMapping("/seq/ping")
+    suspend fun getCompsSeqWithPing() {
+    }
 }
